@@ -40,7 +40,7 @@ main {
 }
 
 .testimonial-card {
-  border-radius: 16px;
+  border-radius: 8px;
   background-color: #FFFFFF;
   padding: 1.5rem;
 
@@ -58,7 +58,6 @@ main {
 .profile {
   display: flex;
   gap: 16px;
-  align-items: center;
 }
 
 .profile img {
