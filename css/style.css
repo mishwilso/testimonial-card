@@ -11,6 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 
+  font-size: 16px;
 }
 
 * {
@@ -25,7 +26,7 @@ body {
 
 .background {
   background-color: #F9FAFB; /* fallback colour*/
-  background-image: linear-gradient(26deg, #F9FAFB, #D2D6DB);
+  background: linear-gradient(147.52deg, #F9FAFB 8.89%, #D2D6DB 100.48%);
 }
 
 main {
@@ -34,6 +35,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+
+  padding: 200px 0 !important; 
 }
 
 .testimonial-card {
@@ -47,8 +50,6 @@ main {
 
   width: 100%;
   max-width: 340px;
-
-  margin-top: 200px;
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
   /* align-items: flex-start; */
@@ -74,13 +75,13 @@ main {
 }
 
 .profile-info h1 {
-  font-size: 1.125rem;
+  font-size: 18px;
   font-weight: 600;
   color: var(--primary);
 }
 
 .profile-info p {
-  font-size: 1.14rem;
+  font-size: 0.875rem;
   color: var(--secondary);
 } 
 
@@ -118,3 +119,4 @@ main {
   text-overflow: ellipsis;
 }
 
+/* Desktop */
