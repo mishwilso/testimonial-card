@@ -1,0 +1,75 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px; /*Mobile default*/
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .container { padding: 32px;}
+}
+
+/* desktop */
+@media (min-width: 1440px) {
+    .container { 
+        max-width: 1280px;
+    }
+}
+
+/* Grid System */
+
+.grid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4 ,1fr);
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .grid { 
+        gap: 32px;
+        grid-template-columns: repeat(6 ,1fr);
+    }
+}
+
+/* desktop */
+@media (min-width: 1440px) {
+    .grid { 
+        grid-template-columns: repeat(12 ,1fr);
+    }
+}
+
+/* CSS Reset */
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+*:not(dialog){
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+}
+
+img, video, picture, canvas {
+    display: block;
+}
+
+button, input, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+
